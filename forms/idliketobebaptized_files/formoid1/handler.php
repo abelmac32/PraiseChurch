@@ -130,7 +130,7 @@ function frmd3_delete_uploaded_files(){
 function frmd3_mail($report, $subject = ''){
     if (!defined('EMAIL_FOR_REPORTS') || !EMAIL_FOR_REPORTS) return false;
     if (!$subject){
-            $subject = 'Share My Story:  submitted ' . $_SERVER['HTTP_HOST'] .
+            $subject = 'Id Like to Be Baptized:  submitted ' . $_SERVER['HTTP_HOST'] .
                 ' at ' . strftime('%m/%d/%y %H:%M %p');
     }
     $charset = defined('PAGE_ENCODING') ? PAGE_ENCODING : 'UTF-8';

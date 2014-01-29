@@ -182,12 +182,25 @@ $form_path='forms/newtopraise_files/formoid1/form.php'; require_once $form_path;
 			<section>
 				<p>I ACCEPTED JESUS</p>
 
-                        <div class="span12 getintouch-tab-block">
+                        <article class="span12 getintouch-tab-block">
                     
                     
-{{IJustAcceptedJesus}}
+<form class="formoid-metro-orange" action="http://www.praisechurch.tv/forms/ijustacceptedjesus_files2/ijustacceptedjesus.php" method="post" accept-charset="utf-8">
 
-                        </div>
+	<div class="element-date"  <?frmd_add_class("date")?>><label class="title">Date of Acceptance</label><input class="large" placeholder="yyyy-mm-dd" type="date" name="date" /></div>
+	
+	<div class="element-name"  <?frmd_add_class("name")?>><span class="nameFirst"><input  type="text" size="8" name="name[first]" placeholder="FIRST" required="required"/></span><span class="nameLast"><input type="text" size="14" name="name[last]" placeholder="LAST" required="required"/></span></div>	
+	
+	<div class="element-email"  <?frmd_add_class("email")?>><input class="large" type="email" name="email" value="" placeholder="EMAIL" required="required"/></div>
+	
+	<div class="element-input"  <?frmd_add_class("input")?>><input class="large" type="text" name="input" placeholder="PHONE" required="required"/></div>
+
+<div class="submit"><input type="submit" value="Submit"/></div>
+
+</form>
+
+
+                        </article>
 			</section>
 			
 			
@@ -195,11 +208,23 @@ $form_path='forms/newtopraise_files/formoid1/form.php'; require_once $form_path;
 			<section>
 				<p>PRAYER</p>
 
-                        <div class="span12 getintouch-tab-block">
+                        <article class="span12 getintouch-tab-block">
                     
-{{INeedPrayer}}
+<form class="formoid-metro-orange" action="http://www.praisechurch.tv/forms/ineedprayer_files/ineedprayer.php" method="post" accept-charset="utf-8">
 
-                        </div>
+	<div class="element-name"  <?frmd1_add_class("name")?>><span class="nameFirst"><input  type="text" size="8" name="name[first]" placeholder="FIRST" required="required"/></span><span class="nameLast"><input type="text" size="14" name="name[last]" placeholder="LAST" required="required"/></span></div>
+	
+	<div class="element-email"  <?frmd1_add_class("email")?>><input class="large" type="email" name="email" value="" placeholder="EMAIL" required="required"/></div>
+	
+	<div class="element-number"  <?frmd1_add_class("number")?>><input class="large" type="text" min="0" max="100" name="number" placeholder="PHONE" required="required" value=""/></div>
+	
+	<div class="element-textarea"  <?frmd1_add_class("textarea")?>><textarea class="medium" name="textarea" cols="20" rows="5" placeholder="MESSAGE" required="required"></textarea></div>
+
+<div class="submit"><input type="submit" value="Submit"/></div>
+
+</form>
+
+                        </article>
 			</section>
 
 
@@ -232,7 +257,7 @@ $form_path='forms/newtopraise_files/formoid1/form.php'; require_once $form_path;
 			<section>
 				<p>BAPTISM</p>
 
-                        <divclass="span12 getintouch-tab-block">
+                        <article class="span12 getintouch-tab-block">
 			
 <form class="formoid-metro-orange" action="http://www.praisechurch.tv/forms/idliketobebaptized_files/idliketobebaptized.php" method="post" accept-charset="utf-8">
 
