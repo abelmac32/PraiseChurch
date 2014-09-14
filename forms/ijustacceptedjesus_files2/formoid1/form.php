@@ -1,6 +1,6 @@
 <?php
 
-define('EMAIL_FOR_REPORTS', 'abelmcbride@praisebeaumont.com');
+define('EMAIL_FOR_REPORTS', 'tammyanderud@praisechurch.tv');
 define('RECAPTCHA_PRIVATE_KEY', '@privatekey@');
 define('FINISH_URI', 'http://praisechurch.tv/thanks');
 define('FINISH_ACTION', 'redirect');

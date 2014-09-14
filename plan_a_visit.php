@@ -5,8 +5,9 @@
 <meta charset="utf-8">
 <title>Praise Church</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Highly unique creative theme built with Bootstrap">
-<meta name="author" content="Designova">
+<meta name="description" content="Looking for a church in Southeast Texas? Praise Church is a creative, contemporary, non-denominational church in Beaumont, TX that invites you to rethink church, redefine life, and reinvent yourself.">
+<meta name="keywords" content="Praise, Church, Christian, Center, Beaumont, Texas, Southeast, Golden, Triangle, churches, non-denominational, modern, praisebeaumont">
+<meta name="author" content="Praise Church">
 
 <link href="assets/css/bootstrap-workaround.css" rel="stylesheet">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -52,12 +53,12 @@
     </div>
     <div id="nav">
       <ul>
-        <li><a href="learn_more.html"  data-soffset="0">Learn More</a></li>
-        <li><a href="get_involved.html" data-soffset="0">Get Involved</a></li>
+        <li><a href="who_we_are.html"  data-soffset="0">Who We Are</a></li>
+        <li><a href="serve_with_us.html" data-soffset="0">Serve With Us</a></li>
         <li><a href="watch_a_service.html" data-soffset="0">Watch A Service</a></li>
         <li><a href="give_online.html" data-soffset="0">Give Online</a></li>
         <li><a href="plan_a_visit.php" data-soffset="0">Plan A Visit</a></li>
-        <li><a href="get_in_touch.php" data-soffset="0">Get In Touch</a></li>
+        <li><a href="contact_us.php" data-soffset="0">Contact Us</a></li>
       </ul>
     </div>
 </header>
@@ -71,7 +72,7 @@
 <div class="navigation hidden-phone hidden-tablet">
 	<ul id="main-nav">
 		<li>
-            <a href="learn_more.html">learn<br>more<br/></a>
+            <a href="who_we_are.html">who<br>we are<br/></a>
         </li>
 		<li>
             <a href="watch_a_service.html">watch a<br>service<br/></a>
@@ -83,13 +84,13 @@
             <a href="home.html"><img alt="Praise Church" title="Praise Church" src="images/logo.png"/></a>
         </li>
 		<li>
-            <a href="get_involved.html">get<br>involved<br/></a>
+            <a href="serve_with_us.html">serve<br>with us<br/></a>
         </li>
 		<li>
             <a href="give_online.html">give<br>online<br/></a>
         </li>
 		<li>
-            <a href="get_in_touch.php">get in<br>touch<br/></a>
+            <a href="contact_us.php">contact<br>us<br/></a>
         </li>
 	</ul>
 </div>
@@ -112,12 +113,17 @@
               <div class="top-element text-bg-1 narrowside floatcenter">
                 
                         <div class="shoutout-no-border">
-                        <h4>Plan A Visit</h4>
-                        <p>Pastor Steven Furtick is the founder and lead pastor of Elevation Church based in Charlotte, NC. He is also the New York Times® Best Selling author of "Greater" and the national bestseller "Sun Stand Still". Pastor Steven holds the Master of Divinity degree from The Southern Baptist Theological Seminary. He and his wife Holly live in the Charlotte area with their two sons, Elijah and Graham, and daughter, Abbey.</p>
-                        <h2>Worship Services</h2>
-                        <p>Sunday 10:00AM, 11:30AM</p>
-                        <h2>Address</h2>
-                        <p>8150 N Major Dr<br>Beaumont, TX 77713</br></p>
+                        <h4>You’re Always Welcome Here.</h4>
+                        <p>We love having guests in our house! Whether you’re considering membership or just checking us out, we’d love to know you’re planning to stop by. Drop us a line below by the Saturday night before your visit, and we’ll have information waiting when you arrive.</p>
+                        
+
+                        <!-- Before the Sunday service, drop us a line below, and we’ll have information waiting when you arrive. -->
+                        
+                        
+                        <h2>Sunday Services</h2>
+                        <p>Sunday 10:00AM & 11:30AM</p>
+                        <h2>Where to Find Us</h2>
+                        <p>8325 Walker Rd<br>Beaumont, TX 77713</br></p>
 
                         </div>
                         
@@ -135,9 +141,30 @@
               <div class="top-element text-bg-1 narrowside floatcenter">
                 
                 <div class="shoutout-no-border">
-                    <h4>Select A Service</h4>
+                    <h4>Let Us Know You're Coming</h4>
                     
-{{SelectAService}}
+<form class="formoid-metro-orange" action="http://www.praisechurch.tv/forms/selectaservice_files/selectaservice.php" method="post" accept-charset="utf-8">
+
+	<div class="element-date"  <?frmd_add_class("date")?>><label class="title">CHOOSE A SUNDAY</label><input class="large" placeholder="yyyy-mm-dd" type="date" name="date" required="required"/></div>
+	
+	<div class="element-select"  <?frmd_add_class("select")?>><label class="title">CHOOSE A SERVICE</label><div class="large"><span><select name="select" required="required">
+
+		<option value="10:00 AM">10:00 AM</option><br/>
+		<option value="11:30 AM">11:30 AM</option><br/></select><i></i></span></div></div>
+		
+		
+	<div class="element-name"  <?frmd_add_class("name")?>><label class="shoutout-no-border"><h5>Tell Us About You</h5></label><span class="nameFirst"><input  type="text" size="8" name="name[first]" placeholder="FIRST" required="required"/></span><span class="nameLast"><input type="text" size="14" name="name[last]" placeholder="LAST" required="required"/></span></div>
+	
+	<div class="element-email"  <?frmd_add_class("email")?>><input class="large" placeholder="EMAIL" type="email" name="email" value="" required="required"/></div>
+	
+	<div class="element-number"  <?frmd_add_class("number")?>><label class="title">How many adults are in your group?</label><input class="large" type="text" min="0" max="100" name="number" required="required" value=""/></div>
+	
+	<div class="element-number"  <?frmd_add_class("number1")?>><label class="title">How many children (5th grade and under) are in your group?</label><input class="large" type="text" min="0" max="100" name="number1" required="required" value=""/></div>
+
+<div class="submit"><input type="submit" value="Submit"/></div>
+
+</form>
+
 
                 </div>
               </div>
@@ -166,8 +193,9 @@
                 <div class="row">
                     <article class="contactus span12 text-center">
                         <a href="#" class="logo"><img alt="praise church" title="praise church" src="images/foot-badge.png"></a>
-                        <h1>Praise Church <span>|</span> 8150 N Major Dr<br/>Beaumont <span>|</span> Texas</h1>
-                        <p>Service Times <span>|</span> 10AM &amp; 11:30AM</p>
+                        <h1>Praise Church <span>|</span> 8325 Walker Rd<br/>Beaumont, Texas 77713</h1>
+		        		<a href="tel:1-409-898-0020">409-898-0020</a>
+                        <h2>Service Times <span>|</span> 10AM &amp; 11:30AM</h2>
                     </article>
                  </div>
 
@@ -176,7 +204,7 @@
                  <div class="row foot-soc">
                     <article class="span12 text-center">
                         <nav class="social-links">
-                            <a class="facebook" href="https://www.facebook.com/praisebeaumont" target="_blank">
+                            <a class="facebook" href="https://www.facebook.com/praisechurchtv" target="_blank">
                                 <img alt="Praise Church" title="Praise Church" src="images/footer_facebook.png" >
                             </a>
                             <a class="twitter" href="https://twitter.com/PraiseChurchTv" target="_blank">
@@ -185,7 +213,7 @@
                             <a class="instagram" href="http://instagram.com/praisechurchtv" target="_blank">
                                 <img alt="Praise Church" title="Praise Church" src="images/footer_instagram.png" >
                             </a>
-                            <a class="rss" href="https://itunes.apple.com/us/podcast/praise-church/id378331161" target="_blank">
+                            <a class="rss" href="https://itunes.apple.com/us/podcast/praise-church/id861480980?mt=2" target="_blank">
                                 <img alt="Praise Church" title="Praise Church" src="images/footer_rss.png" >
                             </a>
                         </nav>
@@ -278,12 +306,24 @@
 		<!-- Full Screen Background Images are defined via JS here: -->
     <script>
         $.backstretch([
-          "images/worship blurred.jpg"
+          "images/worship_blurred.jpg"
         ], {
             fade: 3000,
             duration: 4000
         });
-    </script>   
+    </script>  
+    
+    
+	    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38647036-2', 'praisechurch.tv');
+  ga('send', 'pageview');
+
+    </script>
 
 
 

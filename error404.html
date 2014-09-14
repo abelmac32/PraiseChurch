@@ -4,8 +4,9 @@
 <meta charset="utf-8">
 <title>Praise Church</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Highly unique creative theme built with Bootstrap">
-<meta name="author" content="Designova">
+<meta name="description" content="Looking for a church in Southeast Texas? Praise Church is a creative, contemporary, non-denominational church in Beaumont, TX that invites you to rethink church, redefine life, and reinvent yourself.">
+<meta name="keywords" content="Praise, Church, Christian, Center, Beaumont, Texas, Southeast, Golden, Triangle, churches, non-denominational, modern, praisebeaumont">
+<meta name="author" content="Praise Church">
 
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -29,8 +30,10 @@
 
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <link href="stylesheets/ie8.css" rel="stylesheet">
     <![endif]-->
-<link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+<link rel="shortcut icon" href="assets/ico/favicon.png">
 
 <style>
     #ticker ul.tweet_list {
@@ -42,7 +45,25 @@
         min-height: 80px;
         height:120px;
     }
-    
+    #colorbox{
+        min-height: 1300px !important;
+    }
+    #cboxTitle{
+        height: 30px !important;
+        position: absolute !important;
+        padding: 0px !important;
+    }
+    #cboxClose{
+        position: absolute !important;
+        margin-top: 15px !important;
+        right: 0px !important;
+    }
+    #cboxClose:hover{
+        background: #787878 url(images/close.png) no-repeat center center;
+    }
+    #cboxContent{
+        padding-top: 37px !important;
+    }
 </style>
 
 </head>
@@ -60,12 +81,12 @@
     </div>
     <div id="nav">
       <ul>
-        <li><a href="learn_more.html"  data-soffset="0">Learn More</a></li>
-        <li><a href="get_involved.html" data-soffset="0">Get Involved</a></li>
+        <li><a href="who_we_are.html"  data-soffset="0">Who We Are</a></li>
+        <li><a href="serve_with_us.html" data-soffset="0">Serve With Us</a></li>
         <li><a href="watch_a_service.html" data-soffset="0">Watch A Service</a></li>
         <li><a href="give_online.html" data-soffset="0">Give Online</a></li>
         <li><a href="plan_a_visit.php" data-soffset="0">Plan A Visit</a></li>
-        <li><a href="get_in_touch.php" data-soffset="0">Get In Touch</a></li>
+        <li><a href="contact_us.php" data-soffset="0">Contact Us</a></li>
       </ul>
     </div>
 </header>
@@ -79,7 +100,7 @@
 <div class="navigation hidden-phone hidden-tablet">
 	<ul id="main-nav">
 		<li>
-            <a href="learn_more.html">learn<br>more<br/></a>
+            <a href="who_we_are.html">who<br>we are<br/></a>
         </li>
 		<li>
             <a href="watch_a_service.html">watch a<br>service<br/></a>
@@ -91,13 +112,13 @@
             <a href="home.html"><img alt="Praise Church" title="Praise Church" src="images/logo.png"/></a>
         </li>
 		<li>
-            <a href="get_involved.html">get<br>involved<br/></a>
+            <a href="serve_with_us.html">serve<br>with us<br/></a>
         </li>
 		<li>
             <a href="give_online.html">give<br>online<br/></a>
         </li>
 		<li>
-            <a href="get_in_touch.php">get in<br>touch<br/></a>
+            <a href="contact_us.php">contact<br>us<br/></a>
         </li>
 	</ul>
 </div>
@@ -136,8 +157,9 @@
                 <div class="row">
                     <article class="contactus span12 text-center">
                         <a href="#" class="logo"><img alt="praise church" title="praise church" src="images/foot-badge.png"></a>
-                        <h1>Praise Church <span>|</span> 8150 N Major Dr<br/>Beaumont <span>|</span> Texas</h1>
-                        <p>Service Times <span>|</span> 10AM &amp; 11:30AM</p>
+                        <h1>Praise Church <span>|</span> 8325 Walker Rd<br/>Beaumont, Texas 77713</h1>
+		        		<a href="tel:1-409-898-0020">409-898-0020</a>
+                        <h2>Service Times <span>|</span> 10AM &amp; 11:30AM</h2>
                     </article>
                  </div>
 
@@ -155,7 +177,7 @@
                             <a class="instagram" href="http://instagram.com/praisechurchtv" target="_blank">
                                 <img alt="Praise Church" title="Praise Church" src="images/footer_instagram.png" >
                             </a>
-                            <a class="rss" href="https://itunes.apple.com/us/podcast/praise-church/id378331161" target="_blank">
+                            <a class="rss" href="https://itunes.apple.com/us/podcast/praise-church/id861480980?mt=2" target="_blank">
                                 <img alt="Praise Church" title="Praise Church" src="images/footer_rss.png" >
                             </a>
                         </nav>
@@ -249,7 +271,20 @@
             fade: 3000,
             duration: 4000
         });
-    </script>   
+    </script>
+    
+    
+	    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38647036-2', 'praisechurch.tv');
+  ga('send', 'pageview');
+
+    </script>
+       
 
 </body>
 </html>

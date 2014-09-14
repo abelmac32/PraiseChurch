@@ -27,7 +27,7 @@ function initialize() {
 {"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":25},{"visibility":"on"}]},
 {"featureType":"road.highway","elementType":"geometry","stylers":[{"hue":"#ffaa00"},{"visibility":"on"},{"saturation":-43}]},
 {"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},
-{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"off"}]},
+{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},
 {"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"simplified"},{"hue":"#ffaa00"},{"saturation":-70}]},
 {"featureType":"road.arterial","stylers":[{"visibility":"on"}]},
 {"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
@@ -44,7 +44,7 @@ function initialize() {
 	     
 	var mapOptions = {
 	  center: new google.maps.LatLng(30.15465,-94.19154),
-		zoom: mobileDetection.ismobile ? 9 : 10,
+		zoom: mobileDetection.ismobile ? 14 : 15,
 		disableDefaultUI: true,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		styles: styles,
@@ -83,7 +83,7 @@ return 1;
  * other.
  */
 var campuses = [
-['praise', 30.15465, -94.19154, 1, 'Praise'],
+['praise', 30.1559, -94.19154, 1, 'Praise'],
 ];
 
 function centerRegion (lat, long) {

@@ -175,7 +175,7 @@ function initialize() {
 //=======================
 
 $("a.fancythumb").fancybox({
-                'overlayShow'   : false,
+                'overlayShow'   : true,
                 'transitionIn'  : 'elastic',
                 'transitionOut' : 'elastic'
             });

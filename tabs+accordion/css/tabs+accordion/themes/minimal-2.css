@@ -32,7 +32,7 @@
   padding: 0;
 }
 .js .minimal-2.accordion > section > :first-child {
-  font-size: inherit;
+  font-size: 15px;
   font-weight: normal;
   margin: 0;
   padding: 12px 24px;
@@ -120,6 +120,9 @@
   display: table;
   content: "";
 }
+
+/* PADDING AND HEIGHT FOR TABS */
+
 .minimal-2.tabs > ul > li {
   border-bottom: none;
   color: #b1b1b1;
@@ -127,6 +130,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
+  font-size: 15px;
   line-height: 48px;
   padding: 0 24px;
 }
@@ -293,3 +297,89 @@
 .minimal-2.tomato.tabs > ul > li + li {
   border-left-color: #ff6347;
 }
+
+
+
+
+@media (min-width: 1382px) and (max-width: 2000px){
+  .js .minimal-2.accordion > section > :first-child {
+  font-size: 15px;
+  }
+  
+  .minimal-2.tabs > ul > li {
+  font-size: 15px;
+  line-height: 48px;
+  padding: 0 24px;
+  }
+}
+
+@media (min-width: 1057px) and (max-width: 1382px){
+  .js .minimal-2.accordion > section > :first-child {
+  font-size: 12px;
+  }
+  
+  .minimal-2.tabs > ul > li {
+  font-size: 12px;
+  line-height: 46px;
+  padding: 0 22px;
+  }
+}
+
+@media (max-width: 1057px){
+  .js .minimal-2.accordion > section > :first-child {
+  font-size: 9px;
+  }
+  
+  .minimal-2.tabs > ul > li {
+  font-size: 9px;
+  line-height: 36px;
+  padding: 0 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px){
+  .js .minimal-2.accordion > section > :first-child {
+  font-size: 9px;
+  }
+
+  .minimal-2.tabs > ul > li {
+  font-size: 9px;
+  line-height: 34px;
+  padding: 0 18px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px){
+  .js .minimal-2.accordion > section > :first-child {
+  font-size: 7px;
+  }
+
+  .minimal-2.tabs > ul > li {
+  font-size: 7px;
+  line-height: 32px;
+  padding: 0 16px;
+  }
+}
+
+
+/* MOBILE*/
+
+@media (max-width: 640px){
+  .js .minimal-2.accordion > section > :first-child {
+  font-size: inherit;
+  font-weight: normal;
+  }
+
+}
+
+@media (max-width: 480px){
+
+}
+
+@media (max-width: 320px){
+
+}
+
+
+
+
